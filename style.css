@@ -15,11 +15,11 @@ body
 
 .header
 {
-    height: 70px;
-    padding-top: 8px;
+    padding: 20px 20px 40px 20px;
 
     text-transform: uppercase;
 
+    border-bottom: 1px solid #553100;
     background-color: #ffdbaa;
 }
 
@@ -27,62 +27,85 @@ body
 {
     font-size: 2em;
 
-    padding-top: 15px
-
-    color: #553100;
     padding-left: 20px;
 
     letter-spacing: 2px;
+
+    color: #553100;
 }
+
+.navbtns
+{
+    float: right;
+
+    padding-right: 40px;
+}
+
 .nav.btn
 {
     display: inline-block;
 
-    width: 80px;
+    width: 100px;
     height: 30%;
+    margin: 0 10px;
 }
 
 .the-middle-one,
 .bottom-row
 {
-    margin-top: 25px;
+    margin: 25px 50px;
 }
 
 
 .btn
 {
-    margin: 12px;
-    padding: 8px 0;
+    padding: 12px 0;
 
+    transition: all .1s;
     text-align: center;
 
     color: white;
     background-color: #805215;
 }
 
+.btn:hover
+{
+    transform: translateY(-2px);
+
+    background-color: #915c18;
+}
+
 .the-middle-one .card
 {
-    width: calc(65%/3);
+    width: calc(70%/3);
     margin-right: 5%;
     margin-left: 5%;
 }
 
 .bottom-row .card
 {
-    width: 90%;
-    margin-right: 5%;
-    margin-left: 5%;;
+    width: 100%;
 }
 
 .card
 {
     display: inline-block;
 
-    padding: 5px;
+    box-sizing: border-box;
+    padding: 10px;
 
     background-color: white;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,.6);
 }
-.navbtns
+.card h3
 {
-    float: right;
+    text-align: center;
+}
+
+.filler
+{
+    cursor: default;
+    user-select: none;
+
+    color: white;
 }
