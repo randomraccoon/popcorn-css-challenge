@@ -11,7 +11,19 @@ body
     margin: 0;
 
     background-color: #d4a76a;
+    background-image: url('anahi-martinez-322194.jpg');
+    background-size: cover;
 }
+/*
+.icon-flight
+{
+    padding: 2px 0;
+
+    color: white;
+    color: #cef;
+    border-radius: 100%;
+    background-color: #070;
+}*/
 
 .header
 {
@@ -20,7 +32,12 @@ body
     text-transform: uppercase;
 
     border-bottom: 1px solid #553100;
-    background-color: #ffdbaa;
+    background-color: rgba(255,255,255,.7);
+}
+
+.frog
+{
+    height: 40px;
 }
 
 .header span
@@ -29,6 +46,7 @@ body
 
     padding-left: 20px;
 
+    vertical-align: top;
     letter-spacing: 2px;
 
     color: #553100;
@@ -75,9 +93,10 @@ body
 
 .btn:hover
 {
-    transform: translateY(-2px);
+    transform: translate(-1px,-1px);
 
     background-color: #915c18;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.3);
 }
 
 .the-middle-one .card
@@ -102,15 +121,13 @@ body
     background-color: white;
     box-shadow: 0 0 10px 1px rgba(0,0,0,.6);
 }
+
+.card p
+{
+    height: 50px;
+}
+
 .card h3
 {
     text-align: center;
-}
-
-.filler
-{
-    cursor: default;
-    user-select: none;
-
-    color: white;
 }
